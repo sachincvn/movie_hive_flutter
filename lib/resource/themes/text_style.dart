@@ -1,5 +1,4 @@
-import 'dart:ui';
-
+import 'package:flutter/material.dart';
 import 'package:movie_hive/resource/themes/colors.dart';
 
 class FontFamily {
@@ -12,6 +11,7 @@ class TextStyles {
   static const double subheadingFontSize = 24.0;
   static const double bodyFontSize = 18.0;
   static const double paragraphFontSize = 16.0;
+  static const double smallerFontSize = 14.0;
 
   static TextStyle titleTextMedium = TextStyle(
     fontFamily: FontFamily.montserrat,
@@ -48,10 +48,36 @@ class TextStyles {
     fontWeight: FontWeight.w400,
   );
 
+  static TextStyle bodyTextMedium = TextStyle(
+    fontFamily: FontFamily.montserrat,
+    fontSize: bodyFontSize,
+    color: AppColors.primaryTextcolor,
+    fontWeight: FontWeight.w500,
+  );
+
   static TextStyle paragraphTextRegular = TextStyle(
     fontFamily: FontFamily.montserrat,
     fontSize: paragraphFontSize,
     color: AppColors.primaryTextcolor,
     fontWeight: FontWeight.w400,
+  );
+  static TextStyle paragraphTextMedium = TextStyle(
+    fontFamily: FontFamily.montserrat,
+    fontSize: paragraphFontSize,
+    color: AppColors.primaryTextcolor,
+    fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle smallerTextRegular = TextStyle(
+    fontFamily: FontFamily.montserrat,
+    fontSize: smallerFontSize,
+    color: AppColors.primaryTextcolor,
+    fontWeight: FontWeight.w300,
+  );
+  static TextStyle smallerhTextMedium = TextStyle(
+    fontFamily: FontFamily.montserrat,
+    fontSize: smallerFontSize,
+    color: AppColors.primaryTextcolor,
+    fontWeight: FontWeight.w500,
   );
 }
