@@ -1,6 +1,4 @@
-# movie_hive
-
-A new Flutter project.
+# movie_hive flutter project with clean architecture
 
 ## Getting Started
 
@@ -14,3 +12,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Design
+
+https://dribbble.com/shots/22170539-iNox-Movie-Streaming-App
